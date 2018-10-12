@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title> Flood Prediction model by team phoenix</title>
-</head>
-<body>
+
 
 	<h1 align="center"><u>  Flood Prediction Model</u></h1>
 	<h3 align="center"> By Team Phoenix </h3>
@@ -21,5 +16,4 @@
 	<p> As the chances of flood are increasing , We'll notify them about the discreancies they are going to face. The measures they should take.  We'll tell them about the near regions which are green and are safe during flood</p>
 
 	<br>
-</body>
-</html>
+
