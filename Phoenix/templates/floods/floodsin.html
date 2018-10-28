@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flood Guard</title>
+</head>
+<body>
+<form action="/floods/" method="POST">
+	{%csrf_token%}
+	<input type="text" name="city">
+	<input type="submit" name="submit">
+</form>
+</body>
+</html>
