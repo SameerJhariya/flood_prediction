@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '8v_*rq@jz$en%6x&e@x0)*75!^h812#6#%yor5b+-b20q4^)rb'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -75,10 +75,8 @@ WSGI_APPLICATION = 'Phoenix.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'phoenix_db',
-        'USER': 'PayAll',
-        'PASSWORD': 'pay123',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'db.sqlite3',
     }
 }
 
